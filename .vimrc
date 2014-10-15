@@ -1,5 +1,3 @@
-set tabstop=2
-set nocompatible
 filetype plugin indent off
 
 if has('vim_starting')
@@ -52,3 +50,9 @@ set hlsearch
 set laststatus=2
 " ステータス行に表示させる情報の指定(どこからかコピペしたので細かい意味はわかっていない)
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
+set autoindent
+" ペースト時の自動インデント無効
+set paste
+set shiftwidth=2
+set tabstop=2
+set nocompatible
