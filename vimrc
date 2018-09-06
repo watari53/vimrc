@@ -22,6 +22,8 @@ if dein#load_state('~/.vim/dein/')
   call dein#add('Shougo/neosnippet-snippets')
   call dein#add('thinca/vim-quickrun')
   call dein#add('scrooloose/nerdtree')
+  call dein#add('Shougo/denite.nvim')
+  call dein#add('tomasr/molokai')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/deol.nvim', { 'rev': '01203d4c9' })
